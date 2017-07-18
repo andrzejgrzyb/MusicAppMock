@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="pl.com.andrzejgrzyb.musicappmock.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SearchActivity. Should contain edittext to enter searched phrase and a button." />
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/music_library_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Music library" />
+
+    <Button
+        android:id="@+id/music_store_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online music store" />
+
+
+
+</LinearLayout>
